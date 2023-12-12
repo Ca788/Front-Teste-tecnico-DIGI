@@ -1,0 +1,101 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-form {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.start-form input,
+.start-form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.start-form button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-form button:hover {
+  background-color: #2980b9;
+}
+
+
+.question-card {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 12px;
+  background-color: #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #c0c0c0;
+}
+
+.question-text {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.final-results {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 64px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #ff5555;
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3333;
+}
